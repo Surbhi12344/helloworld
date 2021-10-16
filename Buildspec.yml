@@ -4,11 +4,11 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn test
+      - mvn clean package
   post_build:
     commands:
       - echo Build completed on `date`
       - mvn package
 artifacts:
   files:
-  - target/helloworld.jar
+  - target/helloworld-1.0.jar
