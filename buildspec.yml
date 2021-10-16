@@ -7,4 +7,4 @@ phases:
       - mvn clean package
 artifacts:
   files:
-  - target/helloworld-1.0.jar
+  - target/helloworld.jar
