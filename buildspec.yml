@@ -7,4 +7,4 @@ phases:
       - mvn clean package
 artifacts:
   files:
-  - target/helloworld.jar
+  - target/src/main/java/com/coveros/demo/helloworld.jar
